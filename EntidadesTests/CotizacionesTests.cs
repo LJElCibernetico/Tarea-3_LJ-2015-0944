@@ -30,7 +30,7 @@ namespace Entidades.Tests
         public void Eliminar()
         {
             CotizacionesRepositorio cotizacionesRepositorio = new CotizacionesRepositorio();
-            Assert.IsTrue(cotizacionesRepositorio.Eliminar(3));
+            Assert.IsTrue(cotizacionesRepositorio.Eliminar(1));
         }
 
         private Cotizaciones Cotizacion()
